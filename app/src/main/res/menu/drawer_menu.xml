@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:title="Général">
+         <menu>
+             <item
+                 android:id="@+id/home"
+                 android:icon="@drawable/ic_baseline_home_24"
+                 android:title="Principal" />
+             <item
+                 android:id="@+id/liste_employés"
+                 android:icon="@drawable/ic_baseline_people_24"
+                 android:title="Liste des employés" />
+             <item
+                 android:id="@+id/notifications"
+                 android:icon="@drawable/ic_baseline_flight_24"
+                 android:title="Congés" />
+         </menu>
+     </item>
+
+</menu>

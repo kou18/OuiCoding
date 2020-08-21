@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "869031877387",
+    "firebase_url": "https://ouicoding-2cd49.firebaseio.com",
+    "project_id": "ouicoding-2cd49",
+    "storage_bucket": "ouicoding-2cd49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869031877387:android:918f9e8a2ce25a2650600e",
+        "android_client_info": {
+          "package_name": "com.example.ouicoding"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869031877387-8hfe7l740va4mqa1042i655uqq8uganc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7Z6rfHkm3sxstUSTHqk3j-eAo-Yr8rlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869031877387-8hfe7l740va4mqa1042i655uqq8uganc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

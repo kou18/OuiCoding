@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type :"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:id="@+id/ddc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date début contrat :"
+        android:layout_below="@+id/type"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:id="@+id/dfc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date fin contrat:"
+        android:layout_below="@+id/ddc"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:id="@+id/typeex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="type"
+        android:textColor="#000"
+        android:layout_toRightOf="@id/type"
+        android:textSize="20sp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/ddcex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="ddc"
+        android:layout_below="@+id/type"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/ddc"/>
+    <TextView
+        android:id="@+id/dfcex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="dfc"
+        android:layout_below="@+id/ddc"
+        android:layout_toRightOf="@+id/dfc"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"/>
+
+</RelativeLayout>

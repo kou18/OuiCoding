@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/textselection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sélectionner l'employé"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/emailconge"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textselection"
+        android:hint="Email"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"/>
+    <TextView
+        android:id="@+id/entrerjours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrer le nombre de jours a soustraire:"
+        android:textColor="#000"
+        android:layout_below="@+id/emailconge"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/nbjours"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entrerjours"
+        android:textColor="#000"
+        android:hint="Nombre de jours"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"/>
+
+    <Button
+        android:id="@+id/modifier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modifier"
+        android:textColor="#000"
+        android:layout_below="@+id/nbjours"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
