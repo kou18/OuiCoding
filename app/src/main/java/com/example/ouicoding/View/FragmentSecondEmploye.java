@@ -23,7 +23,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class FragmentSecondEmploye extends Fragment {
-    TextView type,ddc,dfc;
+    TextView type,ddc,dfc,nbr;
     ContratResponse contratResponseData;
     User mUser;
     @Nullable
@@ -33,6 +33,7 @@ public class FragmentSecondEmploye extends Fragment {
         type=view.findViewById(R.id.typeex);
         ddc=view.findViewById(R.id.ddcex);
         dfc=view.findViewById(R.id.dfcex);
+        nbr= view.findViewById(R.id.nbrex);
         mUser=MainActivity.getUser();
         Log.d("tag", "value= "+mUser.getId());
         getContrat();
@@ -57,7 +58,7 @@ public class FragmentSecondEmploye extends Fragment {
                 type.setText(contratResponseData.getType());
                 ddc.setText(contratResponseData.getDebut());
                 dfc.setText(contratResponseData.getFin());
-
+                nbr.setText(String.valueOf(contratResponseData.getJoursConge()));
             }
 
             @Override

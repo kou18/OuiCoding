@@ -6,6 +6,8 @@ public class ContratResponse {
     private String debut;
     private String fin;
     private int iduser;
+    private float joursConge;
+
 
     public int getId() {
         return id;
@@ -45,5 +47,13 @@ public class ContratResponse {
 
     public void setIduser(int iduser) {
         this.iduser = iduser;
+    }
+
+    public float getJoursConge() {
+        return joursConge;
+    }
+
+    public void setJoursConge(int joursCongé) {
+        this.joursConge = joursCongé;
     }
 }
